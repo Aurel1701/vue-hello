@@ -3,13 +3,13 @@
 const app = new Vue(
     {
         // cerco il div su cui lavorare
-        el: 'app',
+        el:'#app',
         
 
         // creo un data da dove prendere l'input 
 
         data: {
-            messaggio: 'Ciao Aurel'
+            messaggio:'Ciao Aurel'
         },
 
 
