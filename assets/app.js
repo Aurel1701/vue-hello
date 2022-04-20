@@ -1,4 +1,5 @@
 //Stampare a schermo un messaggio all’interno di un h1, utilizzando i data.
+//Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 
 const app = new Vue(
     {
@@ -9,7 +10,10 @@ const app = new Vue(
         // creo un data da dove prendere l'input 
 
         data: {
-            messaggio:'Ciao Aurel'
+            messaggio:'Ciao Aurel',
+
+            // aggiungo immagine tramite link 
+            img: 'https://miro.medium.com/max/6416/1*7OCwu--TWqVluPMsZdzWKw.png'
         },
 
 
@@ -17,5 +21,4 @@ const app = new Vue(
 );
 
 
-//Aggiungere alla pagina un’immagine, presa anch’essa da un data.
-//confermate lettura come al solito e buon divertimento 
+
